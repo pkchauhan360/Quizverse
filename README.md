@@ -19,11 +19,10 @@ An interactive **Online Quiz System** built with **Python, Streamlit, and SQLite
 
 online_quiz/
 │
-├─ app.py # Streamlit main application
-├─ database.py # Database connection and query functions
-├─ requirements.txt # Required Python libraries
-└─ data/ # Optional folder for sample questions
-
+├─ app.py               # Streamlit main application
+├─ database.py          # Database connection and query functions
+├─ requirements.txt     # Required Python libraries
+└─ data/                # Optional folder for sample questions
 ---
 
 ## **Technologies Used**
@@ -39,19 +38,19 @@ online_quiz/
 
 1. **Clone the repository**
 
-````bash
 git clone <repository_url>
 cd online_quiz
 
 2. **Install dependencies**
-```bash
+
 pip install streamlit pandas
 
 3. **Run the app**
-```bash
+
 streamlit run app.py
 
 4. **Open the quiz**
+
 Open the URL shown in your terminal (usually http://localhost:8501) in a web browser.
 
 ---
@@ -69,3 +68,4 @@ Submit your answers to see your score.
 Check Leaderboard to view top scores.
 
 ````
+
