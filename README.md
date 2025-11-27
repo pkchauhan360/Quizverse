@@ -32,7 +32,7 @@ It allows users to sign up, log in, attempt quizzes, receive scores instantly, a
 ## 📁 Project Structure
 
 ```plaintext
-QuizVerse/
+QuizVerse
 │
 ├── app.py              # Main application
 ├── database.py         # Creates database tables
@@ -41,6 +41,7 @@ QuizVerse/
 ├── quizverse.db        # Generated database file
 ├── requirements.txt    # Dependencies
 └── README.md
+```
 
 ---
 
@@ -108,6 +109,7 @@ You can log out anytime using the **Logout** button in the sidebar.
 ---
 
 ### ✨ Have fun quizzing — and may the highest score win!
+
 
 
 
