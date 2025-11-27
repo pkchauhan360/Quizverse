@@ -40,6 +40,14 @@ QuizVerse/
 
 ---
 
+## 👉 Launch the App
+
+Click the link below to start:
+
+🔗 **https://quizverse.streamlit.app/**
+
+---
+
 ## 🚀 How to Use
 
 1️⃣ **Open the QuizVerse link provided**  
@@ -96,3 +104,4 @@ You can log out anytime using the **Logout** button in the sidebar.
 ---
 
 ### ✨ Have fun quizzing — and may the highest score win!
+
