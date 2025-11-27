@@ -1,71 +1,98 @@
-# 🎓 Online Quiz System
+# 🎓 QuizVerse — Online Quizzing System
 
-An interactive **Online Quiz System** built with **Python, Streamlit, and SQLite**. Users can register, take a multiple-choice quiz, see their scores, and view a leaderboard of top performers.
-
----
-
-## **Features**
-
-- ✅ User registration and login
-- ✅ Take a quiz with random questions
-- ✅ Automatic score calculation
-- ✅ Store quiz results in SQLite database
-- ✅ Leaderboard to display top scores
-- ✅ Interactive web interface using **Streamlit**
+QuizVerse is a lightweight web-based quiz platform built using **Python, Streamlit, and SQLite**.  
+It allows users to sign up, log in, attempt quizzes, receive scores instantly, and view a live leaderboard.
 
 ---
 
-## **Project Structure**
+## 🚀 Features
 
-online_quiz/
-│
-├─ app.py               # Streamlit main application
-├─ database.py          # Database connection and query functions
-├─ requirements.txt     # Required Python libraries
-└─ data/                # Optional folder for sample questions
----
-
-## **Technologies Used**
-
-- **Python 3.x**
-- **Streamlit** – for interactive frontend
-- **SQLite** – lightweight SQL database for storing users, questions, and scores
-- **Pandas** – for displaying leaderboard tables
+- 🔐 User authentication (Sign Up / Login)
+- ❓ Random multiple-choice questions
+- 🧮 Automatic scoring
+- 🏆 Real-time leaderboard
+- 💾 SQLite database for users, questions & scores
+- 🎨 Simple, interactive UI with Streamlit
 
 ---
 
-## **Setup Instructions**
+## 🛠 Tech Stack
 
-1. **Clone the repository**
-
-git clone <repository_url>
-cd online_quiz
-
-2. **Install dependencies**
-
-pip install streamlit pandas
-
-3. **Run the app**
-
-streamlit run app.py
-
-4. **Open the quiz**
-
-Open the URL shown in your terminal (usually http://localhost:8501) in a web browser.
+| Component         | Technology |
+| ----------------- | ---------- |
+| Language          | Python     |
+| Framework         | Streamlit  |
+| Database          | SQLite     |
+| Password Security | bcrypt     |
 
 ---
 
-**Usage**
+## 📁 Project Structure
 
-Go to Register and create a new account.
+QuizVerse/
+│── app.py # Main application
+│── database.py # Creates database tables
+│── add_questions.py # Script to insert quiz questions
+│── clear_users.py # (Optional) Script to reset user data
+│── quizverse.db # Generated database file
+│── requirements.txt # Dependencies
+└── README.md
 
-Navigate to Login and log in with your credentials.
+---
 
-Take the quiz by selecting answers for each question.
+## 🚀 How to Use
 
-Submit your answers to see your score.
+1️⃣ **Open the QuizVerse link provided**  
+(Works best on a laptop, but also supported on mobile.)
 
-Check Leaderboard to view top scores.
+2️⃣ **Create an account**
 
-````
+- Enter a username and password under **Signup**
+- After creating the account, switch to **Login**
 
+3️⃣ **Log in to start**
+
+- Use the username and password you created
+
+4️⃣ **Select "Take Quiz"**
+
+- Questions will appear one by one with multiple-choice options
+- Read carefully and choose your answer
+- Once done, click **Submit Quiz** to lock your responses
+
+5️⃣ **View Your Score**
+
+- Your score will appear instantly after submission
+
+6️⃣ **Leaderboard**
+
+- Go to the **Leaderboard** section to see your ranking compared to other users
+
+---
+
+## 🏆 What You Can Do Inside QuizVerse
+
+✔️ Take quizzes  
+✔️ Track your performance  
+✔️ Compete with other users  
+✔️ Learn and improve with every attempt
+
+---
+
+## 🎯 Goal of QuizVerse
+
+QuizVerse is designed to offer:
+
+- A fast and clean quiz experience
+- A competitive learning environment
+- A platform to test knowledge across topics
+
+---
+
+## 👤 Logging Out
+
+You can log out anytime using the **Logout** button in the sidebar.
+
+---
+
+### ✨ Have fun quizzing — and may the highest score win!
