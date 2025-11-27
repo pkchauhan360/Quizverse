@@ -29,8 +29,6 @@ It allows users to sign up, log in, attempt quizzes, receive scores instantly, a
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```plaintext
 QuizVerse
 │
@@ -109,6 +107,7 @@ You can log out anytime using the **Logout** button in the sidebar.
 ---
 
 ### ✨ Have fun quizzing — and may the highest score win!
+
 
 
 
