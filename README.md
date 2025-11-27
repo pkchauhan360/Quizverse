@@ -29,7 +29,7 @@ It allows users to sign up, log in, attempt quizzes, receive scores instantly, a
 
 ## 📁 Project Structure
 
-QuizVerse/
+QuizVerse
 │── app.py              # Main application
 │── database.py         # Creates database tables
 │── add_questions.py    # Script to insert quiz questions
@@ -105,6 +105,7 @@ You can log out anytime using the **Logout** button in the sidebar.
 ---
 
 ### ✨ Have fun quizzing — and may the highest score win!
+
 
 
 
