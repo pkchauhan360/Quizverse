@@ -30,13 +30,14 @@ It allows users to sign up, log in, attempt quizzes, receive scores instantly, a
 ## 📁 Project Structure
 
 QuizVerse/
-│── app.py # Main application
-│── database.py # Creates database tables
-│── add_questions.py # Script to insert quiz questions
-│── clear_users.py # (Optional) Script to reset user data
-│── quizverse.db # Generated database file
-│── requirements.txt # Dependencies
+│── app.py              # Main application
+│── database.py         # Creates database tables
+│── add_questions.py    # Script to insert quiz questions
+│── clear_users.py      # (Optional) Script to reset user data
+│── quizverse.db        # Generated database file
+│── requirements.txt    # Dependencies
 └── README.md
+
 
 ---
 
@@ -104,4 +105,5 @@ You can log out anytime using the **Logout** button in the sidebar.
 ---
 
 ### ✨ Have fun quizzing — and may the highest score win!
+
 
